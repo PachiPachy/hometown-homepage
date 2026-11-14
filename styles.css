@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+-----
+black: #002E42
+yellow: #fae373
+light blue: #7ED7E9
+blue: #00BDE0
+dark blue: #00415C
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 450;
+    background: linear-gradient(#00BDE0, #00415C);
+    color: whitesmoke;
+    text-shadow: 1px 1px #002E42;
+    font-size: 18px;
+}
+
+h2, h3 {
+    font-weight: 800;
+}
+
+.italy {
+    font-style: italic;
+}
+
+.small {
+    font-size: 8px;
+    font-weight: 100;
+}
+
+#bubbles-overlay {
+    background-image: url("images/bubbles_pattern.png");
+    background-position: 0 20%;
+    background-size: cover;
+    background-color: rgb(255, 255, 255, 20%);
+}
+
+.bg-blur {
+    backdrop-filter: blur(8px);
+    background-color: rgb(255, 0, 64, 10%);
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    margin: 0;
+    background-image: url("images/underwater.webp");
+    background-size: cover;
+    padding: 20px 0 50px 0;
+    border-bottom: 5px solid #7ED7E9;
+}
+
+#hero-txt {
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+h1 {
+    font-family: "Skranji", system-ui;
+}
+
+#hero-txt > h1, #hero-txt > h2 {
+    color: whitesmoke;
+    border: 2px solid #002E42;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 64, 30%);
+}
+
+.section-title {
+    display: block;
+    margin: 50px 20px 20px;
+    border-bottom: 2px solid #7ED7E9;
+}
+
+#activities-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+
+.activity-card {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #002E42;
+    border-radius: 5px;
+    border-bottom: 10px solid #002E42;
+}
+
+.activity-card > img {
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+}
+
+#business-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #002E42 solid;
+    padding: 20px;
+    width: 450px;
+    margin: 0 auto;
+    border-bottom: 10px solid #002E42;
+}
+
+#it-her {
+    margin: 20px 5px 0;
+}
+
+.it-her-lbl {
+    margin: 0;
+}
+
+#reclaimer {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}

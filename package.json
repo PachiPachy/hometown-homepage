@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0i50r5cho",
+  "description": "https://scrimba.com/s0i50r5cho/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

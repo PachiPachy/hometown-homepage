@@ -64,7 +64,7 @@ img {
 
 #hero-txt {
     margin: 0 auto;
-    padding: 0 80px;
+    width: 75%;
 }
 
 h1 {
@@ -93,7 +93,7 @@ h1 {
 }
 
 .activity-card {
-    width: 200px;
+    width: 25%;
     padding: 10px;
     border: 2px solid #002E42;
     border-radius: 5px;
@@ -113,8 +113,8 @@ h1 {
     justify-content: center;
     align-items: center;
     border: 2px #002E42 solid;
-    padding: 20px;
-    width: 450px;
+    padding: 30px;
+    width: 50%;
     margin: 0 auto;
     border-bottom: 10px solid #002E42;
 }

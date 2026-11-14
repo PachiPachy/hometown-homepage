@@ -22,7 +22,7 @@ body {
     background: linear-gradient(#00BDE0, #00415C);
     color: whitesmoke;
     text-shadow: 1px 1px #002E42;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 h2, h3 {
@@ -34,7 +34,7 @@ h2, h3 {
 }
 
 .small {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
 }
 
